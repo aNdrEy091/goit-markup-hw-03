@@ -20,13 +20,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="page-header">
       <div class="container">
-        <nav>
+        <nav class="page-nav">
           <a class="logo" href="./index.html"
             >Web<span class="logo-second">Studio</span></a
           >
-          <ul>
+          <ul class="menu">
             <li><a class="link" href="./index.html">Studio</a></li>
             <li><a class="link" href="">Portfolio</a></li>
             <li><a class="link" href="">Contacts</a></li>
@@ -34,7 +34,7 @@
         </nav>
 
         <address class="page-address">
-          <ul>
+          <ul class="menu">
             <li>
               <a class="link-second" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -57,32 +57,32 @@
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
-      <section>
+      <section class="second">
         <div class="container">
-          <h2 class="title-third">Core Values</h2>
-          <ul>
-            <li>
+          <h2 class="visually-hidden">Core Values</h2>
+          <ul class="list">
+            <li class="item">
               <h3 class="title-second">Strategy</h3>
               <p class="text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title-second">Punctuality</h3>
               <p class="text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title-second">Diligence</h3>
               <p class="text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title-second">Technologies</h3>
               <p class="text">
                 Design practice focused on digital experiences. We bring forth a
@@ -95,40 +95,51 @@
       <section class="third">
         <div class="container">
           <h2 class="title-third">Our Team</h2>
-          <ul>
+          <ul class="list">
             <li class="team-card">
-              <img src="./images/img-3.jpg" alt="Mark Guerrero" width="264" />
-              <h3 class="title-second">Mark Guerrero</h3>
-              <p class="text">Product Designer</p>
+              <div class="item-second">
+                <img src="./images/img-3.jpg" alt="Mark Guerrero" width="264" />
+                <h3 class="title-second">Mark Guerrero</h3>
+                <p class="text">Product Designer</p>
+              </div>
             </li>
             <li class="team-card">
-              <img src="./images/img-2.jpg" alt="Tom Ford" width="264" />
-              <h3 class="title-second">Tom Ford</h3>
-              <p class="text">Frontend Developer</p>
+              <div class="item-second">
+                <img src="./images/img-2.jpg" alt="Tom Ford" width="264" />
+                <h3 class="title-second">Tom Ford</h3>
+                <p class="text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card">
-              <img src="./images/img-1.jpg" alt="Camila Garcia" width="264" />
-              <h3 class="title-second">Camila Garcia</h3>
-              <p class="text">Marketing</p>
+              <div class="item-second">
+                <img src="./images/img-1.jpg" alt="Camila Garcia" width="264" />
+                <h3 class="title-second">Camila Garcia</h3>
+                <p class="text">Marketing</p>
+              </div>
             </li>
             <li class="team-card">
-              <img src="./images/img.jpg" alt="Daniel Wilson" width="264" />
-              <h3 class="title-second">Daniel Wilson</h3>
-              <p class="text">UI Designer</p>
+              <div class="item-second">
+                <img src="./images/img.jpg" alt="Daniel Wilson" width="264" />
+                <h3 class="title-second">Daniel Wilson</h3>
+                <p class="text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <section>
+      <section class="section-last">
         <div class="container">
           <h2 class="title-third">Our Portfolio</h2>
-          <ul>
-            <li>
+          <ul class="list-second">
+            <li class="li-last">
+              <div class="con"></div>
               <img src="./images/img-9.jpg" alt="Banking App" width="360" />
               <h3 class="title-second">Banking App</h3>
               <p class="text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="li-last">
+              <div class="con">
               <img
                 src="./images/img-8.jpg"
                 alt="Cashless Payment"
@@ -136,18 +147,24 @@
               />
               <h3 class="title-second">Cashless Payment</h3>
               <p class="text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="li-last">
+              <div class="con">
               <img src="./images/img-7.jpg" alt="Meditaion App" width="360" />
               <h3 class="title-second">Meditation App</h3>
               <p class="text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="li-last">
+              <div class="con">
               <img src="./images/img-6.jpg" alt="Taxi Service" width="360" />
               <h3 class="title-second">Taxi Service</h3>
               <p class="text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="li-last">
+              <div class="con">
               <img
                 src="./images/img-5.jpg"
                 alt="Screen Illustrations"
@@ -155,11 +172,14 @@
               />
               <h3 class="title-second">Screen Illustrations</h3>
               <p class="text">Design</p>
+              </div>
             </li>
-            <li>
+            <li class="li-last">
+              <div class="con">
               <img src="./images/img-4.jpg" alt="Online Courses" width="360" />
               <h3 class="title-second">Online Courses</h3>
               <p class="text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
