@@ -28,6 +28,7 @@ img {
   display: flex;
   width: 1158px;
   padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 
 .page-header {
@@ -150,26 +151,27 @@ img {
   color: #434455;
 }
 
-.third {
+.third-section {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
 
+.container-third {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+  display: none;
 }
 
 .list {
   display: flex;
   gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .list .item {
@@ -184,6 +186,7 @@ img {
 
 .item-second {
   padding: 32px 0;
+  text-align: center;
 }
 
 .section-last {
@@ -222,6 +225,8 @@ img {
 
 .title-third {
   margin-bottom: 72px;
+  text-align: center;
+  font-size: 32px;
 }
 
 a {
