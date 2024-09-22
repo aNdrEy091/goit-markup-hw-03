@@ -32,12 +32,13 @@ body {
 }
 
 .menu-second {
-  padding-left: 300px;
+  padding-left: 332px;
   display: flex;
   gap: 40px;
 }
 
 .logo {
+  display: flex;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -87,6 +88,7 @@ body {
 }
 
 .page-address .link-second {
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -104,6 +106,8 @@ body {
 }
 
 .title {
+  padding-bottom: 48px;
+  margin: auto;
   max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
@@ -113,6 +117,7 @@ body {
 }
 
 .button {
+  margin: auto;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -171,6 +176,16 @@ body {
   color: #2e2f42;
 }
 
+.title-second-left {
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .title-name {
   text-align: center;
   margin-bottom: 8px;
@@ -183,6 +198,14 @@ body {
 
 .text {
   text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.text-left {
+  text-align: left;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -218,7 +241,6 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .list {
@@ -250,6 +272,7 @@ body {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 ul {
