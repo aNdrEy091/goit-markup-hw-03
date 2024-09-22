@@ -42,11 +42,11 @@ body {
   color: #4d5ae5;
 }
 
-.inner-container {
-  display: contents;
+.footer-container {
+  display: inline-block;
 }
 
-.container .inner-container .logo-footer {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
