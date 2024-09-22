@@ -8,8 +8,14 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container {
+.header-container {
   display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -40,10 +46,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-
-.footer-container {
-  display: inline-block;
 }
 
 .logo-footer {
@@ -226,7 +228,7 @@ body {
   row-gap: 48px;
 }
 
-.list .item-third {
+.item-third {
   width: calc((100% - 48px) / 3);
 }
 
