@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -41,8 +42,7 @@ body {
   color: #4d5ae5;
 }
 
-.container .logo-footer {
-  display: inline-block;
+.logo-footer {
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
