@@ -32,7 +32,7 @@ body {
 }
 
 .menu-second {
-  padding-left: 332px;
+  margin-left: 332px;
   display: flex;
   gap: 40px;
 }
@@ -106,8 +106,8 @@ body {
 }
 
 .title {
-  padding-bottom: 48px;
   margin: auto;
+  margin-bottom: 48px;
   max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
