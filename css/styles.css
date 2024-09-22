@@ -26,7 +26,6 @@ body {
 }
 
 .menu-second {
-  padding-top: 24px;
   padding-left: 300px;
   display: flex;
   gap: 40px;
@@ -44,7 +43,7 @@ body {
 }
 
 .logo-footer {
-  display: inline-block;
+  display: inline-block !important;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -245,7 +244,6 @@ body {
 
 a {
   text-decoration: none;
-  display: inline-block;
 }
 
 ul {
