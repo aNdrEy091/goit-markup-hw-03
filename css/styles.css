@@ -32,7 +32,6 @@ body {
 }
 
 .logo {
-  display: inline-block;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -43,7 +42,7 @@ body {
   color: #4d5ae5;
 }
 
-a.logo-footer {
+.container .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
@@ -245,7 +244,6 @@ a.logo-footer {
 
 a {
   text-decoration: none;
-  display: inline-block;
 }
 
 ul {
